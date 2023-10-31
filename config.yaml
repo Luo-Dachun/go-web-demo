@@ -1,0 +1,30 @@
+jwt:
+  signing-key: eb020e7e-1774-4e1b-bf02-02178c0e3b97
+  expires-time: 7d
+  buffer-time: 1d
+  issuer: qmPlus
+mysql:
+  prefix: ""
+  port: "3306"
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  db-name: test_web_demo
+  username: root
+  password: "962464"
+  path: 127.0.0.1
+  engine: ""
+  log-mode: error
+  max-idle-conns: 10
+  max-open-conns: 100
+  singular: false
+  log-zap: false
+system:
+  env: local
+  db-type: mysql
+  oss-type: local
+  router-prefix: ""
+  addr: 8888
+  iplimit-count: 15000
+  iplimit-time: 3600
+  use-multipoint: false
+  use-redis: false
+  use-mongo: false
